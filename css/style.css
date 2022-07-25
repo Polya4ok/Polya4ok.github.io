@@ -402,6 +402,9 @@ body {
   .menu__list.--active {
     top: 80px;
   }
+  body.lock {
+    overflow: hidden;
+  }
   .title {
     font-size: 55px;
     line-height: 60px;
